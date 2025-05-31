@@ -111,7 +111,7 @@ const API_SITES = {
         name: 'iKun资源'
     },
          ckzy: {
-         api: 'https://ckzy.me/api.php/provide/vod',
+         api: 'https://ckzy.me/api.php/provide/vod/?ac=list',
          name: 'CK资源'
      },
      jkun: {
