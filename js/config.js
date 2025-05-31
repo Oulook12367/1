@@ -24,8 +24,7 @@ const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com', 
-        adult: true
+        detail: 'http://caiji.dyttzyapi.com'
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
@@ -112,32 +111,39 @@ const API_SITES = {
     },
          ckzy: {
          api: 'https://ckzy.me/api.php/provide/vod/?ac=list',
-         name: 'CK资源'
+         name: 'CK资源', 
+        adult: true
      },
      jkun: {
          api: 'https://www.jkunzyapi.com/api.php/provide/vod/',
-         name: 'jkun资源'
+         name: 'jkun资源', 
+        adult: true
      },
      bwzy: {
          api: 'https://api.bwzym3u8.com/api.php/provide/vod/at/xml/',
-         name: '百万资源'
+         name: '百万资源', 
+        adult: true
      },
      souav: {
          api: 'https://api.souavzy.vip/api.php/provide/vod/?ac=list',
-         name: 'souav资源'
+         name: 'souav资源', 
+        adult: true
      },
      r155: {
          api: 'https://155api.com/api.php/provide/vod/?ac=list', 
-         name: '155资源'
+         name: '155资源', 
+        adult: true
      },
      lsb: {
          api: 'https://apilsbzy1.com/api.php/provide/vod/?ac=list',
-         name: 'lsb资源'
+         name: 'lsb资源', 
+        adult: true
      },
      huangcang: {
          api: 'https://hsckzy.vip/api.php/provide/vod/from/hsckm3u8/at/xml/',
          name: '黄色仓库',
-         detail: 'https:hsckzy.vip'
+         detail: 'https:hsckzy.vip', 
+        adult: true
      },
      yutu: {
          api: 'https://apiyutu.com/api.php/provide/vod/?ac=list',
